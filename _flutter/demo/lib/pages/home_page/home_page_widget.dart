@@ -13,7 +13,7 @@ export 'home_page_model.dart';
 import 'dart:js_interop';
 
 @JS('Neutralino.os.showMessageBox')
-external void NeutralinoOsShopMessageBox(String title, String msg);
+external void NeutralinoOsShowMessageBox(String title, String msg);
 //
 // JS InterOP end
 
@@ -85,7 +85,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                     onPressed: () async {
                       
                         // Calling the external JS function:
-                        NeutralinoOsShopMessageBox('Info', 'Neutralino says: Hello Flutter!');
+                        NeutralinoOsShowMessageBox('Info', 'Neutralino says: Hello Flutter!');
 
                     },
                     text: 'Call the Neutralino API',
