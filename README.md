@@ -6,7 +6,7 @@
 
 This app scaffold is an alternative to Flutter's Desktop approach: Quickly wrap your Flutter project into a Neutralino app and get access to Neutralino's awesome extensions from Dart.
 
-It omes with the following features:
+It comes with the following features:
 
 - Run a Flutter WASM app in a Neutralino Webview.
 - Neutralino produces only 2 files to deploy: An executable and its resources file.
