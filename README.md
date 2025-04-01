@@ -62,11 +62,11 @@ This simple example illustrates how to call JS code from Flutter, doing things o
 import 'dart:js_interop';
 
 @JS('Neutralino.os.showMessageBox')
-external void NeutralinoOsShopMessageBox(String title, String msg);
+external void NeutralinoOsShowMessageBox(String title, String msg);
 ...
 onPressed: () async {
   // Calling the external JS function:
-  NeutralinoOsShopMessageBox('Info', 'Neutralino says: Hello Flutter!');
+  NeutralinoOsShowMessageBox('Info', 'Neutralino says: Hello Flutter!');
 },
 ...
 ```
